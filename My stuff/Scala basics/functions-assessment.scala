@@ -18,7 +18,7 @@ def checkEven(numbers: List[Int]): Boolean = {
 //println(checkEven(List(1,3,5,7,4))) // true
 
 // 3) Take in a list of integers and calculate their sum. However, sevens are lucky and they should be counted twice
-def getSum(nums: List[Integer]): Integer = {
+def getSum(nums: List[Integer]): Int = {
   var sum = 0
   for (num <- nums) {
     if (num == 7) {
@@ -36,7 +36,7 @@ def getSum(nums: List[Integer]): Integer = {
 // the numbers on one side is equals to the sum of the numbers on the other side. For example, given the list
 // (1,5,3,3) would return true, so you can split it in the middle 1 + 5 = 3 + 3. Another example (7,3,4) would return true, so
 // / = 3 + 4
-def isPlace(nums: List[Int]): Boolean = {
+def checkBalance(nums: List[Int]): Boolean = {
   for (i <- Range(2, nums.size)) {
     if (nums.slice(0,i).sum == nums.slice(i, nums.size).sum)
       return true
@@ -44,24 +44,15 @@ def isPlace(nums: List[Int]): Boolean = {
   return false
 }
 
-//println(isPlace(List(3,4,6))) // false
-//println(isPlace(List(2,2,2,3,3))) // true
+//println(checkBalance(List(3,4,6))) // false
+//println(checkBalance(List(2,2,2,3,3))) // true
+//println(checkBalance(List(1,2,3,4,10))) // true
 
 // 5) Given a String, return a boolean indicating whether or not it is a palindrome (Spelled the same
 // forwards and backwards).
-def isPalindrome(sentence: String): Boolean = {
-  sentence = sentence.replace(" ", "").replace(",")
+def isPalindrome(st: String): Boolean = {
+  return st == st.reverse
 }
 
-//println(isPalindrome("hola")) // false
-//println(isPalindrome("Yo dono rosas, oro no doy")) // true
-var string = "Yo dono rosas, oro no doy".replace(" ", "").replace(",", "").toLowerCase
-var array = string.split("")
-var other = string.reverse.split("")
-for (c <- array) {
-  print(c)
-}
-print("\n")
-for (c <- other) {
-  print(c)
-}
+println(isPalindrome("hola")) // false
+println(isPalindrome("abccba")) // true
