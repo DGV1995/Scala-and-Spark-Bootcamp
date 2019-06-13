@@ -18,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spark DataFrames/DataFrame_Overview.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="765">
@@ -26,6 +26,15 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/My stuff/Spark/DataFrame_Project_Exercises.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" column="104" lean-forward="true" selection-end-line="48" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -38,8 +47,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Spark DataFrames/DataFrame_Overview.scala" />
         <option value="$PROJECT_DIR$/Machine Learning Sections/Linear Regression/LinRegExample.scala" />
+        <option value="$PROJECT_DIR$/Spark DataFrames/DataFrame_Overview.scala" />
       </list>
     </option>
   </component>
@@ -55,14 +64,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Scala and Spark Bootcamp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scala and Spark Bootcamp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala and Spark Bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala and Spark Bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="My stuff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Scala and Spark Bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scala and Spark Bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="My stuff" type="462c0819:PsiDirectoryNode" />
+              <item name="Spark" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Scala and Spark Bootcamp" type="b2602c69:ProjectViewProjectNode" />
@@ -271,9 +291,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-671" y="-1417" width="2560" height="1417" extended-state="6" />
+    <frame x="-671" y="-1417" width="2560" height="1417" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14444445" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1452381" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -328,6 +348,13 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/My stuff/Spark/DataFrame_Project_Exercises.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="104" lean-forward="true" selection-end-line="48" selection-end-column="104" />
         </state>
       </provider>
     </entry>

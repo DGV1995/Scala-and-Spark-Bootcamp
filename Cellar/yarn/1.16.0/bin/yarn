@@ -1,0 +1,2 @@
+#!/bin/bash
+PREFIX="/usr/local" NPM_CONFIG_PYTHON="/usr/bin/python" exec "/usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js" "$@"
